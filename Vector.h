@@ -5,7 +5,7 @@ template<class T>
 class Mvector
 {
 public:
-	// Вспомогательные части для вектора
+	// supporting parts of vector
 	Mvector();
 	Mvector(int l);
 	Mvector(const Mvector<T>& other);
@@ -20,7 +20,7 @@ public:
 	size_t size() const;
 	size_t capacity();
 
-	// Требуемые функции 
+	// Required functions 
 	void push_back(const T& x);
 	void insert(size_t index, const T&);
 	void remove(int index);
